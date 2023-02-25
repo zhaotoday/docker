@@ -11,6 +11,7 @@
 - [通过Docker部署SpringBoot项目](https://www.cnblogs.com/ride0nTime/p/17093456.html)
 - [Docker 日常命令大全(完整详细版)](https://blog.csdn.net/BThinker/article/details/123355362)
 - [Docker+Nginx部署前后端分离项目(SpringBoot+Vue)的详细教程](https://blog.csdn.net/dgfdhgghd/article/details/127564496)
+- [前端全栈之路 - 玩转 Docker (Dockerfile)](https://juejin.cn/post/7160972042757079077)
 
 ### 视频
 - [通俗易懂docker迅速入门](https://www.bilibili.com/video/BV1yF411c79o/)
