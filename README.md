@@ -1,5 +1,5 @@
 ### 文章
-- [元动力 Docker 教程](https://www.ydlclass.com/doc21xnv/docker/)
+- [元动力 Docker 教程](https://www.ydlclass.com/doc21xnv/java/fourth/6%E3%80%81docker/)
 - [Docker 是怎么实现的？前端怎么用 Docker 做部署？](https://juejin.cn/post/7137621606469222414)
 - [给前端的docker 10分钟真 · 快速入门指南](https://juejin.cn/post/7050304120082661407)
 - [写给前端的 docker 使用指南](https://juejin.cn/post/7139724794672447518)
