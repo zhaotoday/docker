@@ -28,7 +28,9 @@ $ docker run -itd -p 8081:80 --name fzlr-xxx-web-container fzlr-xxx-web-image
 
 - Nestjs 项目
 ```
-
+$ docker build -t fzlr-xxx-api-image .
+# 运行容器
+$ docker run -itd -p 8082:80 --name fzlr-xxx-api-container fzlr-xxx-api-image
 ```
 
 - SpringBoot 项目
