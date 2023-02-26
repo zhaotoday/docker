@@ -16,3 +16,25 @@
 ### 视频
 - [通俗易懂docker迅速入门](https://www.bilibili.com/video/BV1yF411c79o/)
 - [Docker+Nginx部署前后端分离项目(SpringBoot+Vue)](https://www.bilibili.com/video/BV1yg411z7gi/)
+
+### 命令
+- Web 项目
+```
+# 构建镜像
+$ docker build -t fzlr-xxx-web-image .
+# 运行容器
+$ docker run -itd -p 8081:80 --name fzlr-xxx-web-container fzlr-xxx-web-image
+```
+
+- Nestjs 项目
+```
+
+```
+
+- SpringBoot 项目
+```
+# 构建镜像
+$ docker build -t fzlr-xxx-api-image .
+# 运行容器
+$ docker run -itd -p 8083:10701 -v $PWD/static/:/app/static/ --name fzlr-xxx-api-container fzlr-xxx-api-image
+```
