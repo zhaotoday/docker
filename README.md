@@ -68,3 +68,9 @@ $ docker stop fzlr-xxx-api-container
 # 运行容器
 $ docker run -itd -p 8083:10701 --restart=always -v $PWD/static/:/app/static/ --name fzlr-xxx-api-container fzlr-xxx-api-image
 ```
+
+### 团队约定
+- 镜像命名：{company}-{project}-{type}-image，如：fzlr-gxcs-api-image；
+- 容器命名：{company}-{project}-{type}-container，如：fzlr-gxcs-api-container；
+- 如果在客户服务上部署，可以把 {company}- 省略，如：gxcs-api-image、gxcs-api-container；
+- 映射端口：api：10X01、PC Web：10X02、H5：10X03、admin：10X04，其中 0X 表示具体项目编号，如：01、11；
